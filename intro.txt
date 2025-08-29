@@ -1,0 +1,15 @@
+What is language?
+
+what is CMD?
+What is IDE?
+
+source code
+-> Byte code [compiler/interpriter]
+-> -> binary code / machine level language [[0001001010]]
+
+What is software?
+    - system software
+    - application software
+        - web
+        - mobile
+        - desktop
