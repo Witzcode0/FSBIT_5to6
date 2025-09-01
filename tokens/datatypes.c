@@ -10,13 +10,17 @@ The primary categories of data types in C are:
 • Enumeration Data Types: Includes enum which allows for variables to be a set of named integer constants.
 • Void Data Type: Used for functions that do not return a value or to specify generic pointers.
 
+// https://witzcode.pythonanywhere.com/technology/2/3/?wz_tech=C%20programming&wz_category=datatype
+
 // Eamples:
 
 // Basic datatypes:
-// int : 23, 45, 101 (Whole number)
-// float : 34.3443, 45.765874
-// double : 657.78363, 45.675374
-// char : 'a', 'Z', '1'
+// int : 23, 45, 101 (Whole number) : %d
+// float : 34.3443, 45.765874 : %f
+// double : 657.78363, 45.675374 : %ld
+// char : 'a', 'Z', '1' : %c
+
+// long long 
 
 // Derived Data Types:
 // arrays : {1,2,3,4,5,6}
