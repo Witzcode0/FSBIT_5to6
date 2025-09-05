@@ -1,0 +1,23 @@
+What is for loop?
+
+A for loop in C is a control flow statement used for iterative execution of a block of code. It is particularly useful when the number of iterations is known or can be determined beforehand. 
+
+syntax:
+
+for(initilization, condition, inc/dec|update value of initilization){
+    block of code
+}
+
+Example:
+#include <stdio.h>
+
+int main() {
+    int table = 4;
+    for(int start = 1; start <= 10; start++){
+        printf("%d * %d = %d \n",table, start, table*start);
+    }
+    
+    
+
+    return 0;
+}

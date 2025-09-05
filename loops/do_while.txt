@@ -1,0 +1,26 @@
+What is do-while loop? [Exit condition]
+
+The do-while loop in C is a control flow statement that executes a block of code at least once, and then repeatedly executes it as long as a specified condition remains true.
+
+syntax:
+
+do{
+   block of code 
+}while(condition)
+
+#include <stdio.h>
+
+int main() {
+    
+    int start = 1, end = 10, table=51;
+    
+    do{
+        printf("Squr: %d | Cube: %d\n",start*start , start*start*start);
+       
+        start++;
+    }while(start <= end);
+    
+    
+
+    return 0;
+}

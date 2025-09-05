@@ -1,0 +1,74 @@
+What is while loop? [entry control]
+
+A while loop in C is a control flow statement that repeatedly executes a block of code as long as a specified condition remains true.
+
+syntax:
+
+while (condition){
+    block of code
+}
+
+infinite loop
+
+Example-1
+
+#include <stdio.h>
+
+int main() {
+    
+    while(1){
+        printf("BIT");
+    }
+
+    return 0;
+}
+
+finite loop
+
+#include <stdio.h>
+
+int main() {
+    
+    int start = 1, end = 10;
+    
+    while(start <= end){
+        printf("%d - BIT\n",start);
+        start++;
+    }
+
+    return 0;
+}
+
+---------------------------------
+#include <stdio.h>
+
+int main() {
+    
+    int start = 1, end = 10, total=0;
+    
+    while(start <= end){
+        printf("%d - BIT\n",start);
+        total += start;
+        start++;
+    }
+    printf("Total = %d", total);
+
+    return 0;
+}
+
+-----------------------------------
+
+#include <stdio.h>
+
+int main() {
+    
+    int start = 1, end = 10, table=51;
+    
+    while(start <= end){
+        printf("%d * %d = %d \n",table, start, table*start);
+       
+        start++;
+    }
+
+    return 0;
+}
