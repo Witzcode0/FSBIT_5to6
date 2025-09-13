@@ -1,0 +1,15 @@
+What is a function?
+
+A function is a self-contained block of code designed to perform a specific, well-defined task. It allows for the modularization and reusability of code within a program.
+
+Syntax:
+
+data_type function_name(para1, para2,....paran){
+    // code
+};
+
+function call
+
+function_name(val1, val2, ..., valn);
+
+-------------
