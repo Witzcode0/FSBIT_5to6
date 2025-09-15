@@ -13,3 +13,6 @@ function call
 function_name(val1, val2, ..., valn);
 
 -------------
+recursive function:
+
+A recursive function in C is a function that calls itself, either directly or indirectly, to solve a problem. This technique is particularly useful for problems that can be broken down into smaller, self-similar subproblems.

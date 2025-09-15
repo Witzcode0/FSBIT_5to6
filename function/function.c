@@ -84,3 +84,28 @@
 //     fibbo(n);
 //     return 0;
 // }
+
+// Factoial
+// 5! = 5*4*3*2*1
+
+// Recursion
+
+#include <stdio.h>
+
+int Factorial(int n){
+    if (n == 0){
+        return 1;
+    }else{
+        return n * Factorial(n - 1);
+    }
+}
+
+int main() {
+    int num;
+    printf("Enter a num: ");
+    scanf("%d", &num);
+    
+    printf("%d", Factorial(num));
+
+    return 0;
+}
