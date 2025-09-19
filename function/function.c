@@ -109,3 +109,22 @@ int main() {
 
     return 0;
 }
+
+// #include <stdio.h>
+
+// int factorial(int num){
+//     if (num <= 1){
+//         return 1;
+//     }else{
+//         return num * factorial(num - 1);
+//     }
+// }
+
+// int main() {
+//     printf("%d", factorial(5));
+
+//     return 0;
+// }
+
+// 5!
+// 5 * 4 * 3 * 2 * 1
